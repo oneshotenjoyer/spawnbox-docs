@@ -33,4 +33,7 @@ And finally, we can make a window by ending the file with:
 sbox.mainloop()
 ```
 
-Congratz! You have now created a window using SpawnBox. But it doesn't do much. Let's fix that.
+Congrats! You have now created a window using SpawnBox. 
+![Blank black widnow.](img/blank_window.png)
+
+But it doesn't do much. Let's fix that.

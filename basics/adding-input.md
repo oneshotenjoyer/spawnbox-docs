@@ -32,14 +32,6 @@ def update(delta):
         obj.x -= 100 * delta
 ```
 
-We also need to be able to draw our box to the screen, so let's do that really quickly.
-
-```py
-@sbox.addDrawer
-def draw():
-    obj.draw()
-```
-
 Now, test your project, and now you can move left and right with the D and A keys.
 
 ![A white box moving slowly across the top of the screen.](../img/moving.gif)

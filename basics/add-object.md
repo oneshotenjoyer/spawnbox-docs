@@ -30,6 +30,14 @@ def update(delta):
     obj.x += 100 * delta # adds ~1.667 to the X position.
 ```
 
+We also need to be able to draw our box to the screen, so let's do that really quickly.
+
+```py
+@sbox.addDrawer
+def draw():
+    obj.draw()
+```
+
 And boom, we now have a box that moves about 2 pixels per frame.
 
 ![White box moving across top of screen.](../img/box.gif)

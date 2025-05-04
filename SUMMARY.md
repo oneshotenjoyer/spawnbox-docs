@@ -3,3 +3,4 @@
 * [Introduction](README.md)
 * [First Steps](first-steps.md)
 * [Making a Project](make-project.md)
+* [Add an Object](add-object.md)

@@ -1,4 +1,4 @@
-# Making a project.
+# Making a Project
 
 To make a project, first open your code editor of choice (I, modguy07, choose to use Visual Studio Code for anything non-java, but you can use whatever you wish to use), and create a new python file. Start it with:
 
@@ -9,6 +9,7 @@ import spawnbox
 to import the SpawnBox library.
 
 Then, create a SpawnBox object.
+
 ```py
 sbox = spawnbox.SpawnBox("My Title", 800, 600, (0, 0, 0, 255))
 # The arguments to the SpawnBox object are:
@@ -17,6 +18,7 @@ sbox = spawnbox.SpawnBox("My Title", 800, 600, (0, 0, 0, 255))
 ```
 
 Then, create the update() and draw() functions, with the proper decorators, like so:
+
 ```py
 @sbox.addUpdater
 def update(delta):
@@ -33,8 +35,8 @@ And finally, we can make a window by ending the file with:
 sbox.mainloop()
 ```
 
-Congrats! You have now created a window using SpawnBox. 
+Congrats! You have now created a window using SpawnBox.
 
-![Blank black window.](img/blank_window.png)
+![Blank black window.](../img/blank_window.png)
 
 But it doesn't do much. Let's fix that.

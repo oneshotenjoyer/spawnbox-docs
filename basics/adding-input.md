@@ -34,6 +34,6 @@ def update(delta):
 
 Now, test your project, and now you can move left and right with the D and A keys.
 
-![A white box moving slowly across the top of the screen.](img/moving.gif)
+![A white box moving slowly across the top of the screen.](../img/moving.gif)
 
 Now that we know how to move a box arround with the arrow keys, you can easily recreate most simple games like pong, space invaders, etc.

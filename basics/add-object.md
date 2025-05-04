@@ -1,4 +1,4 @@
-# Add your first Entity
+# Add an Object
 
 An entity is essentially the same as a GameObject in most game engines.
 
@@ -32,4 +32,4 @@ def update(delta):
 
 And boom, we now have a box that moves about 2 pixels per frame.
 
-![White box moving across top of screen.](img/box.gif)
+![White box moving across top of screen.](../img/box.gif)

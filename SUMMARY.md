@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [The Basics](basics.md)
-* [Making a Project](make-project.md)
-* [Add an Object](add-object.md)
-* [Adding Input](adding-input.md)
+* [The Basics](basics/README.md)
+  * [Making a Project](basics/make-project.md)
+  * [Add an Object](basics/add-object.md)
+  * [Adding Input](basics/adding-input.md)

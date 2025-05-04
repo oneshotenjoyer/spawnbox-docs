@@ -1,4 +1,4 @@
-# First Steps
+# The Basics
 
 Your first step is to install the SpawnBox Package.
 

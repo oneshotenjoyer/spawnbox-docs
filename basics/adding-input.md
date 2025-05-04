@@ -27,9 +27,17 @@ So, now that we have that explanation out of the way, let's implement our moveme
 @sbox.addUpdater
 def update(delta):
     if sbox.input.pressed[sbox.input.keys["D"]]: # Right
-        entity.x += 100 * delta
+        obj.x += 100 * delta
     elif sbox.input.pressed[sbox.input.keys["A"]]: # Left
-        entity.x -= 100 * delta
+        obj.x -= 100 * delta
+```
+
+We also need to be able to draw our box to the screen, so let's do that really quickly.
+
+```py
+@sbox.addDrawer
+def draw():
+    obj.draw()
 ```
 
 Now, test your project, and now you can move left and right with the D and A keys.

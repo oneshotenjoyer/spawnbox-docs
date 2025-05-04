@@ -34,6 +34,7 @@ sbox.mainloop()
 ```
 
 Congrats! You have now created a window using SpawnBox. 
+
 ![Blank black widnow.](img/blank_window.png)
 
 But it doesn't do much. Let's fix that.

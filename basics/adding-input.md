@@ -14,7 +14,7 @@ sbox.input.pressed[sbox.input.keys[key]]
 # Keys include:
 # Numbers, the alphabet keys, UP, DOWN, LEFT, RIGHT,
 # F1-15, LALT, RALT, LSHIFT, RSHIFT, LCTRL, RCTRL,
-# HOME, DELETE, INSERT, END, SPACE & PLUS.
+# HOME, DELETE, INSERT, RETURN, SPACE & PLUS.
 
 # Because of how input.keys is implemented, key has to be the regular name for the key, in caps. Not including the number keys.
 

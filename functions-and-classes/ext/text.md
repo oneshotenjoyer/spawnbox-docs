@@ -7,6 +7,8 @@ spawnbox.ext.Text(window: spawnbox.Spawnbox, text: str, font: str, size = 24, x 
 
 # Color is in the RGBA Tuple format.
 # (RED, GREEN, BLUE, ALPHA aka TRANSPARENCY)
+
+# Also, please scroll, because the parameters do not fully show. :P
 ```
 <hr />
 Functions:

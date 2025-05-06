@@ -14,6 +14,7 @@ Functions:
 
 `mainloop()` - Runs the project. Must be called from an initialized `SpawnBox` object.
 `quit()` - Stops the current project's execution. Must be called from an initialized `SpawnBox` object.
+
 <hr />
 Decorators:
 

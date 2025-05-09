@@ -1,5 +1,5 @@
 # Make your first game
-Now, we're going to create a simple Pong game using ```spawnbox``` and ```spawnbox.ext```.
+Now, we're going to create a simple Pong game using ```spawnbox```.
 
 To start, create a new python file named ```pong.py```, and set it up with the following code:
 

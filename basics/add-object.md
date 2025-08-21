@@ -15,11 +15,12 @@ To create an entity, add an entity object before your draw and update loops.
 
 ```py
 #  width = 20, height = 20, x = 0, y = 0, color = (255, 255, 255, 255)
-obj = spawnbox.Entity(sbox, 20, 20, 0, 0, (255, 255, 255))
+obj = spawnbox.Entity(sbox, 20, 20, 0, 0, (255, 255, 255, 255))
 # The arguments to the Entity object are:
 # SpawnBox object (which we created earlier), width, height, x, y, color.
 # The color is a RGBA tuple. (red, green, blue, transparency)
 ```
+NOTE: The game may crash if you don't define transparency.
 
 Now, you can make it move in your update function.
 
